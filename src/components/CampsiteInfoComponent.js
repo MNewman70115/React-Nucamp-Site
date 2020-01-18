@@ -38,11 +38,8 @@ function RenderComments({ comments }) {
                 <CommentForm />
             </div>
         )
-    } else {
-        return (
-            <div />
-        )
     }
+    return (<div />) 
 }
 
 class CommentForm extends Component {
